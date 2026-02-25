@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E40AF"/>
+      <stop offset="100%" style="stop-color:#2563EB"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60A5FA"/>
+      <stop offset="100%" style="stop-color:#93C5FD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded square background -->
+  <rect width="64" height="64" rx="16" fill="url(#bg)"/>
+
+  <!-- Subtle inner glow -->
+  <rect width="64" height="64" rx="16" fill="white" opacity="0.04"/>
+
+  <!-- Letter F — bold, centered -->
+  <!-- Horizontal top bar -->
+  <rect x="16" y="14" width="30" height="7" rx="3.5" fill="white"/>
+  <!-- Vertical stem -->
+  <rect x="16" y="14" width="7" height="36" rx="3.5" fill="white"/>
+  <!-- Middle bar (shorter) -->
+  <rect x="16" y="28" width="22" height="6" rx="3" fill="url(#accent)"/>
+
+  <!-- Small dot accent bottom-right -->
+  <circle cx="50" cy="50" r="5" fill="#60A5FA" opacity="0.9"/>
+  <circle cx="50" cy="50" r="2.5" fill="white" opacity="0.9"/>
+</svg>

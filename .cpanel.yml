@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/jasaedi1/porto.hello-inv.com
+    - /bin/cp -R . $DEPLOYPATH
