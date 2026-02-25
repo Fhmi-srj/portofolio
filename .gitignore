@@ -1,11 +1,8 @@
 # Dependencies
 node_modules/
 
-# Next.js build output (main)
+# Next.js internal build cache only (not the static export)
 .next/
-
-# Static export output — managed by deploy script
-# out/ is committed only on the deploy branch, not main
 
 # Environment files
 .env
