@@ -3,7 +3,7 @@
 # Usage: bash ~/porto-repo/pull.sh
 
 REPO_DIR="$HOME/porto-repo"
-PUBLIC_DIR="$HOME/porto.hello-inv.com"
+PUBLIC_DIR="/home/jasaedi1/porto.hello-inv.com"
 
 echo "📥 Pulling dari GitHub..."
 cd "$REPO_DIR" || { echo "❌ Folder repo tidak ditemukan. Clone dulu!"; exit 1; }

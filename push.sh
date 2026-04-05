@@ -4,6 +4,9 @@
 
 MSG=${1:-"update: $(date '+%Y-%m-%d %H:%M')"}
 
+echo "🔨 Building static site..."
+npm run build || { echo "❌ Build failed! Push aborted."; exit 1; }
+
 echo "📦 Staging semua perubahan..."
 git add -A
 
